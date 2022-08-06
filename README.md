@@ -1,4 +1,7 @@
+
 # audio4js
+
+[![npm](https://img.shields.io/npm/v/recordrtc.svg)](https://npmjs.org/package/audio4js) [![downloads](https://img.shields.io/npm/dm/recordrtc.svg)](https://npmjs.org/package/audio4js)
 
 **audio4js:** an audio player lib for node backend by rodio
 
