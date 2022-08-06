@@ -24,32 +24,12 @@ yarn global add neon-cli
 
 3. Install `neon-code`
 ```
-npm install neon-brcode --save
-```
-
-## Usage
-
-1. Install rust
-```
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-# or access https://rustup.rs/
-```
-
-2. Install [neon](https://neon-bindings.com/)
-```
-npm install --global neon-cli
-# OR
-yarn global add neon-cli
-```
-
-3. Install `neon-code`
-```
 npm install audio4js --save
 ```
 
 ## Example
 
-```
+```js
 import Player from 'audio4js';
 
 const main = async ()=>{
@@ -65,4 +45,4 @@ const main = async ()=>{
     }, 15000);
 }
 main();
-```ts
+```
