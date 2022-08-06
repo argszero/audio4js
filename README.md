@@ -27,10 +27,6 @@ yarn global add neon-cli
 npm install neon-brcode --save
 ```
 
-### Types and functions:
-
-```ts
-
 ## Usage
 
 1. Install rust
@@ -50,11 +46,6 @@ yarn global add neon-cli
 ```
 npm install audio4js --save
 ```
-
-### Types and functions:
-
-```ts
-
 
 ## Example
 
