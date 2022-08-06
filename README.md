@@ -54,3 +54,24 @@ npm install audio4js --save
 ### Types and functions:
 
 ```ts
+
+
+## Example
+
+```
+import Player from 'audio4js';
+
+const main = async ()=>{
+    const player = new Player();
+    player.play('/Users/argszero/sample/mp3/file_example_MP3_1MG.mp3', 5);
+    setTimeout(()=>{
+        console.log('set volume to 10');
+        player.setVolume(10);
+    }, 5000);
+    setTimeout(()=>{
+        console.log('stop');
+        player.stop();
+    }, 15000);
+}
+main();
+```ts
